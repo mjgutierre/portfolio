@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="icon" href="img/logo.svg" type="image/svg">
+    <link rel="icon" href="/assets/img/logo.svg" type="image/svg">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaquerie.css">
 </head>
 
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Majo G</div>
+        <div class="logo">LOGO</div>
         <div>
             <ul class="nav-link">
                 <li><a href="#about">About</a></li>
@@ -23,7 +23,7 @@
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">Majo G</div>
+        <div class="logo">LOGO</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -38,6 +38,166 @@
             </div>
         </div>
     </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/img/profile-pic (2).jpeg" alt="Majo's profle picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I´m</p>
+            <h1 class="title">Maria Jose Gutierrez</h1>
+            <p class="section__text__p2">Frontend Developer and Project Manager</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                    onclick="window.open('./assets/files/CVMariaJoseGutierrez2024-1 (1).pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Me</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/img/linkedin.svg" alt="My Linkedin Profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/maria-jose-gutierrez-estrada-cs/'">
+                <img src="./assets/img/github.svg" alt="My Github Profile" class="icon"
+                    onclick="location.href='https://github.com/mjgutierre'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/img/profile-pic (1).jpeg" alt="profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/img/experience.svg" alt="experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <ul>
+                            <li>
+                                <p>Project Leader of Electric Traction Vehicle</p>
+                            </li>
+                            <li>
+                                <p>Electronics manager Electro solar vehicle</p>
+                            </li>
+                            <li>
+                                <p>Frontend Developer</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/img/education.svg" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>
+                                <p>Undergraduate degree in Computer science GPA: 4.0/5.0</p>
+                            </li>
+                            <li>
+                                <p>Inmaculada School</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I am an eighth semester computer science student passionate about web and frontend programming,
+                        as well as data analytics and project management. In my spare time I participate in a
+                        multidisciplinary team programme (KRATOS) in which I was involved in the management, design and
+                        construction of an electric
+                        vehicle, and due to I have been selected to lead 80 students in the construction of an electric
+                        traction vehicle project.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/img/arrow.svg" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p3">Explore My</p>
+        <h1 class="title__3">Experience</h1>
+        <div class="experience-details-container"><!-- div → div.experience-details-container>div.about-containers -->
+            <div class="about-containers">
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/img/check.svg" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/img/check.svg" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/img/check.svg" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/img/check.svg" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/img/check.svg" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Project Management</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/img/check.svg" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>PMI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/img/check.svg" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Leadership</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/img/check.svg" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/img/check.svg" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/img/check.svg" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/img/arrow.svg" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Projects'">
+    </section>
+
     <script src="script.js"></script>
 </body>
 
